@@ -1,0 +1,14 @@
+{
+  "providers": [
+    {
+      "id": "github-youtube",
+      "name": "GitHub YouTube",
+      "description": "Searches GitHub repositories and markdown files for YouTube video links related to the requested title, then streams them via the Piped API.",
+      "version": "1.0.0",
+      "file": "providers/github-youtube.js",
+      "enabled": true,
+      "supportedTypes": ["movie", "tv"],
+      "author": "nuvio-community"
+    }
+  ]
+}
